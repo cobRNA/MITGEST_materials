@@ -1,0 +1,17 @@
+# Instal renv:
+```{r}
+install.packages("renv")
+renv::init()
+```
+
+# Install packages:
+```{r}
+renv::install(c("YuLab-SMU/yulab.utils", "YuLab-SMU/ggfun", "ggplot2", "dplyr", "purrr", "readr", "pheatmap", "DESeq2", "tibble", "biomaRt", "ggrepel", "clusterProfiler", "org.Hs.eg.db"))
+```
+
+
+
+
+
+
+
