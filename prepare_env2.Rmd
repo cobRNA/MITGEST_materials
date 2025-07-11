@@ -1,0 +1,28 @@
+# Instal renv:
+```{r}
+install.packages("renv")
+renv::init()
+```
+
+
+```{r}
+if (!require("BiocManager", quietly = TRUE))
+    install.packages("BiocManager")
+
+# The following initializes usage of Bioc devel
+BiocManager::install(version='devel')
+
+BiocManager::install("DESeq2")
+```
+
+# Install packages:
+```{r}
+renv::install(c("YuLab-SMU/yulab.utils", "YuLab-SMU/ggfun", "ggplot2", "dplyr", "purrr", "readr", "pheatmap", "DESeq2", "tibble", "biomaRt", "ggrepel", "clusterProfiler", "org.Hs.eg.db"))
+```
+
+
+
+
+
+
+
